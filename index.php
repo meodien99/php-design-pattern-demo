@@ -6,4 +6,6 @@ use \Patterns\Adapter\LogToConsole;
 
 $error = new ErrorObject("404:Not Found");
 
-var_dump($error->getError());
+$logger = new LogToConsole($error);
+
+$logger->write();
