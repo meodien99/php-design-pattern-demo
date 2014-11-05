@@ -1,4 +1,5 @@
 <?php
+namespace Patterns\Adapter;
 class ErrorObject {
 
     private $_error;

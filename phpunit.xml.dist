@@ -1,0 +1,8 @@
+<phpunit colors="true"
+        bootstrap="tests/bootstrap.php" >
+    <testsuites>
+        <testsuite name="Madcat PHP DESIGN PATTERN - Test Suite">
+            <directory>tests/Patterns</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

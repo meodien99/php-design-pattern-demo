@@ -1,4 +1,5 @@
 <?php
+namespace Patterns\Adapter;
 class LogToConsole {
     private $_errorObject;
 
