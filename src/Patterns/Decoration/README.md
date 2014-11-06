@@ -8,3 +8,6 @@ of the existing code, it's best practice to create a Decorator object
 In this example, the application is processing compact discs (CDs). It must have a method to add tracks to the CD and a way to show the track
 lists from the CD. The client has specified that CD track list should be displayed in a single line with each track being prefixed by the
 track number
+
+===============
+UPDATE 2: Now, each track in the output needs to be uppercase for just this instance of output.
