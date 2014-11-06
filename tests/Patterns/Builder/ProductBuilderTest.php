@@ -37,7 +37,7 @@ class ProductBuilderTest extends PHPUnit_Framework_TestCase{
         $this->builder->build();
         $product = $this->builder->getProduct();
 
-        var_dump($product);
+        //var_dump($product);
         //$this->assertEquals($this->product, $product);
     }
 

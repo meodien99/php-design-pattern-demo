@@ -10,11 +10,11 @@ namespace Patterns\DataAccessObject;
 
 
 class UserDAO extends BaseDAO{
-    protected $_tableName = 'userTable';
+    protected $_tableName = 'users';
     protected $_primaryKey = 'id';
 
-    public function getUserByFirstName($name){
-        $result = $this->fetch($name, 'firstName');
+    public function getUserByUserName($name){
+        $result = $this->fetch($name, 'username');
 
         return $result;
     }
