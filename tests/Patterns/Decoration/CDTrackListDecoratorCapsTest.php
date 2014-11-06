@@ -24,7 +24,7 @@ class CDTrackListDecoratorCapsTest extends PHPUnit_Framework_TestCase{
         $this->decorator = new CDTrackListDecoratorCaps($this->cd);
         $this->decorator->makeCaps();
 
-        print($this->cd->getTrackList());
+//        print($this->cd->getTrackList());
     }
 
 } 
