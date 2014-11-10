@@ -15,8 +15,8 @@ class PlaylistTest extends PHPUnit_Framework_TestCase{
         $this->playlist->addSong('Hello', 'Brr');
         $this->playlist->addSong('Goodbye', 'Bye');
 
-        var_dump($this->playlist->getM3U());
-        print "\n";
-        var_dump($this->playlist->getPLS());
+        //var_dump($this->playlist->getM3U());
+        //print "\n";
+        //var_dump($this->playlist->getPLS());
     }
 } 
