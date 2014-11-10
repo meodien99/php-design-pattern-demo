@@ -15,6 +15,6 @@ class CDTest extends \PHPUnit_Framework_TestCase{
     public function testInstanceOf(){
         $this->assertInstanceOf('\Patterns\Facade\CD', $this->cd);
 
-        var_dump($this->cd);
+//        var_dump($this->cd);
     }
-} 
+}
