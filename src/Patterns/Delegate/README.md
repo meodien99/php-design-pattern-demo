@@ -1,4 +1,4 @@
-Name: Delegate
+Name: Delegate <br/>
 The Delegate Design Pattern removes decisions or complex functionality from the core object by distributing or delegating them to other
 objects <br/>
 When an object contains individual portions of complex but independent functionality that must be executed based on a decision, it is best practice based on the Delegate Design Pattern
