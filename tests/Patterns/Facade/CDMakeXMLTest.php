@@ -24,7 +24,7 @@ class CDMakeXMLTest extends \PHPUnit_Framework_TestCase{
         CDUppercase::makeString($cd, 'band');
         CDUppercase::makeArray($cd, 'tracks');
 
-        print(CDMakeXML::create($cd));
+//        print(CDMakeXML::create($cd));
     }
 
     private function getCDMock(){
