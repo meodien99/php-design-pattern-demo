@@ -10,3 +10,7 @@ Promote "invocation of a method on an object" to full object status
 An object-oriented callback
 </li>
 </ul>
+
+==========================
+Problem : <br/>
+Need to issue requests to objects without knowing anything about the operation being requested or the receiver of the request
